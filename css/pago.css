@@ -1,0 +1,21 @@
+body{
+	background-image: url("../images/fondo5.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: black;
+}
+
+.jumbotron{
+	background-color: transparent !important;
+}
+
+.color{
+	color: white;
+	border-color: white;
+}
+
+h5{
+	color: white;
+}

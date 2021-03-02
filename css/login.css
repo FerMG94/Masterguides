@@ -1,0 +1,63 @@
+/* Tipo y espaciado de la letra */
+*{
+	font-family: 'Marcellus SC';
+	letter-spacing: 0.05em;
+}
+/* Fondo */
+.bg{
+	background: linear-gradient(cyan, lightgrey, white);
+	width: 100%;
+	height: 100vh;
+}
+
+.needs-validation{
+	border: 0px solid white;
+	padding: 50px 60px;
+	margin-top: 35vh;
+	-webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.40);
+	-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.40);
+	box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.40);
+}
+
+h1{
+	text-align: center;
+}
+
+.form-group{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.btn{
+	border: 1px solid black;
+	background-color: darkcyan !important;
+	color: black;
+}
+
+.btn:hover{
+	background: darkslategrey !important;
+	border: 1px solid black;
+	color: white;
+}
+
+.form-control:focus {
+	border: 1px solid cyan;
+}
+
+.oc:hover, .reg:hover{
+	text-decoration: none;
+}
+
+.logo{
+	width: 150px;
+	height: 150px;
+} 
+
+.log{
+	text-align: center;
+	margin-top: -130px;
+	margin-bottom: 35px;
+	filter: drop-shadow(1px 5px 5px rgba(0,0,0,0.40));
+	-webkit-filter: drop-shadow(1px 5px 5px rgba(0,0,0,0.40));
+}
+

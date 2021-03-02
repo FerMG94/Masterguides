@@ -1,0 +1,176 @@
+/* Tipo, tamaño y espaciado del texto */
+*{
+	font-family: 'Marcellus SC';
+	font-size: 17px;
+	letter-spacing: 0.1em;
+}
+/* Fondo */
+body{
+	background-image: url("../images/fondo2.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: black;
+}
+
+.navbar{
+	min-height: 80px;
+}
+
+.nav-link{
+	color: white !important;
+	text-shadow: 0 0 5px #00ffff, 0 0 10px #fff, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6 !important;
+}
+
+.nav-link:hover{
+	color: cyan !important;
+	-webkit-mask-image: linear-gradient(-75deg, rgba(255,0,0,.5) 30%, #000000 50%, rgba(255,0,0,.5) 70%) !important;
+	-webkit-mask-size: 200% !important;
+	animation: shine 2s infinite !important;
+}
+
+@-webkit-keyframes shine {
+	from {
+		-webkit-mask-position: 150%;
+	}
+
+	to {
+		-webkit-mask-position: -50%;
+	}
+}  
+
+h1{
+	color: cyan;
+	text-align: center;
+	text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #000000, 0 0 20px #000000, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+}
+
+.iconos{
+	color: white !important;
+	text-decoration: none;
+}
+
+.iconos:hover{
+	color: cyan !important;
+}
+
+h4{
+	color: cyan;
+	text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #000000, 0 0 20px #000000, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
+}
+
+hr{
+	border-color: white;
+}
+
+.enlaces{
+	color: white;
+	text-decoration: none;
+}
+
+.enlaces:hover{
+	text-decoration: none;
+	color: cyan !important;
+}
+
+li{
+	color: white;
+}
+
+.enlace{
+	color: white;
+	text-decoration: none;
+}
+
+.enlace:hover{
+	color: cyan;
+}
+
+.copyright{
+	padding: 20px 0px;
+	position: relative;
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+}
+/* Botón que te lleva al principio de la página */
+#back-to-top {
+	position: fixed; 
+	bottom: 20px;
+	right: 30px; 
+	color: white; 
+	cursor: pointer; 
+	padding: 15px; 
+	border: none;
+	background-color: transparent;
+}
+
+#back-to-top:hover {
+	color: cyan;
+}
+
+.logo{
+	min-width: 100px;
+	max-width: 100px;
+} 
+
+.nombre{
+	color: cyan;
+	font-size: 22px;
+}
+
+.fec{
+	float: right;
+}
+
+.coment{
+	color: white;
+}
+
+.description{
+	color: black !important;
+}
+
+.btn{
+	border: 1px solid black;
+	background-color: cyan !important;
+	color: black;
+}
+
+.btn:hover{
+	background: darkslategrey !important;
+	border: 1px solid black;
+	color: white;
+}
+
+.breadcrumb{
+	background-color: transparent !important;
+}
+
+.breadcrumb-item{
+	border-color: white;
+}
+
+.ini{
+	color: cyan;
+}
+
+.ini:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.iden{
+	color: cyan;
+}
+
+.iden:hover{
+	color: white;
+	text-decoration: none;
+}

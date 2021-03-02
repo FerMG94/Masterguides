@@ -1,0 +1,39 @@
+body{
+	background-image: url("../images/fondo6.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: black;
+}
+
+.jumbotron{
+	background-color: transparent !important;
+	
+}
+
+.color{
+	color: white !important;
+}
+
+h3{
+	color: cyan;
+	text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #000000, 0 0 20px #000000, 0 0 25px #ffffff, 0 0 30px #ffffff, 0 0 35px #ffffff;
+	text-align: center;
+}
+
+#dropdownMenuButton{
+	border: 1px solid black;
+	background-color: cyan !important;
+	color: black;
+}
+
+#dropdownMenuButton:hover{
+	background: darkslategrey !important;
+	border: 1px solid black;
+	color: white;
+}
+
+.card-text{
+	color: black;
+}
