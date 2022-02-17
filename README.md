@@ -3,7 +3,6 @@
 Página desarrollada para el proyecto de fin de grado de Desarrollo de Aplicaciones Web. Curso 2019-2020.
 
 'Masterguides' es una página dedicada a la venta de guías de videojuegos.
-Dispone una plataforma de pago (Paypal).
 
 Servidor web utilizado: XAMPP
 
